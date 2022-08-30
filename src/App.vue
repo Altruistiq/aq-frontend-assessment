@@ -13,8 +13,10 @@ export default {
     const countries = await this.$store.dispatch('getCountries')
     console.log(countries)
 
-    // get a single country by id
-    const UK = await this.$store.dispatch('getCountry', 229)
+    // get a single country by countryCode
+    const UK = await this.$store.dispatch('getCountry', { 
+      countryCode: 229 
+    })
     console.log(UK)
   },
 

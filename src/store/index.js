@@ -24,9 +24,9 @@ const store = createStore({
       return json
     },  
     
-    // get a single country by id
-    async getCountry({}, id) {
-      const resp = await fetch(`https://api.footprintnetwork.org/v1/data/${id}/all/EFCpc`, {
+    // get a single country by countryCode
+    async getCountry({}, { countryCode }) {
+      const resp = await fetch(`https://api.footprintnetwork.org/v1/data/${countryCode}/all/EFCpc`, {
         method: 'GET',
         headers: {
           Authorization: API_CREDENTIALS,
