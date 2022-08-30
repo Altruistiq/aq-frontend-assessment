@@ -4,7 +4,7 @@
 
 **Objective**
 
-Create a chart animating carbon footprint per country throughout the years. The below chart is an example for world population (see for animated version: [https://miro.medium.com/max/1600/1*37uCN6y1WyLukxwCadhWRw.gif](https://miro.medium.com/max/1600/1*37uCN6y1WyLukxwCadhWRw.gif)). The provided Figma file shows the one-page app that you should build for this task.
+Create a chart animating carbon footprint per country throughout the years. The below chart is an example for world population (see for animated version. The provided Figma file shows the one-page app that you should build for this task.
 
 ![https://miro.medium.com/max/1600/1*37uCN6y1WyLukxwCadhWRw.gif](https://miro.medium.com/max/1600/1*37uCN6y1WyLukxwCadhWRw.gif)
 
